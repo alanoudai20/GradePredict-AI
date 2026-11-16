@@ -1,0 +1,8 @@
+{
+  "input_rows": 649,
+  "output_rows": 649,
+  "decisions": [],
+  "removed_records": [],
+  "missing_feature_policy": "Retain blanks; fit median imputation on training data only.",
+  "zero_grade_policy": "Retain and flag G3=0; never treat zero as missing."
+}

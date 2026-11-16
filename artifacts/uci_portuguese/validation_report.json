@@ -1,0 +1,334 @@
+{
+  "rows": 649,
+  "columns": 33,
+  "missing_required_columns": [],
+  "column_info": {
+    "school": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "sex": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "age": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "address": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "famsize": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "Pstatus": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "Medu": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "Fedu": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "Mjob": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "Fjob": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "reason": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "guardian": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "traveltime": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "studytime": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "failures": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "schoolsup": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "famsup": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "paid": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "activities": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "nursery": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "higher": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "internet": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "romantic": {
+      "storage_type": "CSV text",
+      "inferred_type": "text/mixed",
+      "expected_type": "text/category",
+      "non_missing": 649
+    },
+    "famrel": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "freetime": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "goout": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "Dalc": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "Walc": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "health": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "absences": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "G1": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "G2": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    },
+    "G3": {
+      "storage_type": "CSV text",
+      "inferred_type": "integer",
+      "expected_type": "numeric",
+      "non_missing": 649
+    }
+  },
+  "missing_values": {
+    "school": 0,
+    "sex": 0,
+    "age": 0,
+    "address": 0,
+    "famsize": 0,
+    "Pstatus": 0,
+    "Medu": 0,
+    "Fedu": 0,
+    "Mjob": 0,
+    "Fjob": 0,
+    "reason": 0,
+    "guardian": 0,
+    "traveltime": 0,
+    "studytime": 0,
+    "failures": 0,
+    "schoolsup": 0,
+    "famsup": 0,
+    "paid": 0,
+    "activities": 0,
+    "nursery": 0,
+    "higher": 0,
+    "internet": 0,
+    "romantic": 0,
+    "famrel": 0,
+    "freetime": 0,
+    "goout": 0,
+    "Dalc": 0,
+    "Walc": 0,
+    "health": 0,
+    "absences": 0,
+    "G1": 0,
+    "G2": 0,
+    "G3": 0
+  },
+  "duplicate_records": [],
+  "invalid_values": [],
+  "warnings": [
+    {
+      "record": 165,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 442,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 521,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 565,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 569,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 585,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 588,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 599,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 605,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 607,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 612,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 628,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 639,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 641,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    },
+    {
+      "record": 642,
+      "column": "G3",
+      "value": "0",
+      "kind": "zero_final_grade_retained"
+    }
+  ]
+}

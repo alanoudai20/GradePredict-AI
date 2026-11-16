@@ -1,0 +1,57 @@
+# Virtual environments
+.venv*/
+backups/
+comparisons/
+.vscode/
+.idea/
+venv/
+env/
+
+# Inactive source data stays local, not in the GitHub-facing project.
+/data/StudentPerformanceFactors.csv
+
+# Python caches and packaging
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test and tool output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local secrets and generated artifacts
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.log
+.ipynb_checkpoints/
+
+# Include only the verified active model and evaluation.
+/models/*
+!/models/uci_portuguese/
+/models/uci_portuguese/*
+!/models/uci_portuguese/linear_regression.joblib
+!/models/uci_portuguese/evaluation.json
+
+# Include active processing outputs, not historical outputs or runtime caches.
+/artifacts/*
+!/artifacts/uci_portuguese/
+/artifacts/uci_portuguese/*
+!/artifacts/uci_portuguese/*.csv
+!/artifacts/uci_portuguese/*.json
+!/artifacts/uci_portuguese/plots/
+/artifacts/uci_portuguese/plots/*
+!/artifacts/uci_portuguese/plots/*.png
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
